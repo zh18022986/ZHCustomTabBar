@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZHBadgeView : UIButton
-
+/** 提醒数字 */
+@property (nonatomic, copy) NSString *badgeValue;
 @end

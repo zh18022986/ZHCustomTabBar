@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZHSecondViewController : UIViewController
+@interface ZHSecondViewController : UITableViewController
 
 @end

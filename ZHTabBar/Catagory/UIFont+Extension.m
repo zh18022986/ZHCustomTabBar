@@ -1,6 +1,6 @@
 //
 //  UIFont+Extension.m
-//  BXInsurenceBroker
+//  ZHInsurenceBroker
 //
 //  Created by JYJ on 16/2/23.
 //  Copyright © 2016年 baobeikeji. All rights reserved.
@@ -10,11 +10,11 @@
 
 @implementation UIFont (Extension)
 + (UIFont *)fontWithDevice:(CGFloat)fontSize {
-    if (BXScreenW > 375) {
+    if (ZHScreenW > 375) {
         fontSize = fontSize + 3;
-    }else if (BXScreenW == 375){
+    }else if (ZHScreenW == 375){
         fontSize = fontSize + 1.5;
-    }else if (BXScreenW == 320){
+    }else if (ZHScreenW == 320){
         fontSize = fontSize;
     }
     UIFont *font = [UIFont systemFontOfSize:fontSize];
@@ -25,11 +25,11 @@
  *  专门为客户性别，年龄电话写的
  */
 + (UIFont *)fontWithCustomer:(CGFloat)fontSize {
-    if (BXScreenW > 375) {
+    if (ZHScreenW > 375) {
         fontSize = fontSize + 2;
-    }else if (BXScreenW == 375){
+    }else if (ZHScreenW == 375){
         fontSize = fontSize + 1.5;
-    }else if (BXScreenW == 320){
+    }else if (ZHScreenW == 320){
         fontSize = fontSize;
     }
     UIFont *font = [UIFont systemFontOfSize:fontSize];
@@ -37,11 +37,11 @@
 }
 
 + (UIFont *)navItemFontWithDevice:(CGFloat)fontSize {
-    if (BXScreenW > 375) {
+    if (ZHScreenW > 375) {
         fontSize = fontSize + 2;
-    }else if (BXScreenW == 375){
+    }else if (ZHScreenW == 375){
         fontSize = fontSize + 1;
-    }else if (BXScreenW == 320){
+    }else if (ZHScreenW == 320){
         fontSize = fontSize;
     }
     UIFont *font = [UIFont systemFontOfSize:fontSize];
@@ -49,11 +49,11 @@
 }
 
 + (UIFont *)fontWithTwoLine:(CGFloat)fontSize {
-    if (BXScreenW > 375) {
+    if (ZHScreenW > 375) {
         fontSize = fontSize + 2;
-    }else if (BXScreenW == 375){
+    }else if (ZHScreenW == 375){
         fontSize = fontSize + 1;
-    }else if (BXScreenW == 320){
+    }else if (ZHScreenW == 320){
         fontSize = fontSize;
     }
     UIFont *font = [UIFont systemFontOfSize:fontSize];
@@ -61,11 +61,11 @@
 }
 
 + (UIFont *)insuranceCellFont:(CGFloat)fontSize {
-    if (BXScreenW > 375) {
+    if (ZHScreenW > 375) {
         fontSize = fontSize + 3.5;
-    }else if (BXScreenW == 375){
+    }else if (ZHScreenW == 375){
         fontSize = fontSize + 2;
-    }else if (BXScreenW == 320){
+    }else if (ZHScreenW == 320){
         fontSize = fontSize;
     }
     UIFont *font = [UIFont systemFontOfSize:fontSize];

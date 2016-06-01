@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"第四页";
+    UIButton *push = [[UIButton alloc] init];
+    push.frame = CGRectMake(100, 100, 100, 100);
+    push.backgroundColor = [UIColor redColor];
+    [push addTarget:self action:@selector(pushvC)];
+    [self.view addSubview:push];
+}
+
+- (void)pushvC {
+    UIViewController *vc = [[UIViewController alloc] init];
+    vc.view.backgroundColor = [UIColor grayColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

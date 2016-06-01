@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZHNavigationViewController : UINavigationController
+@property (nonatomic, strong) id popDelegate;
 
 @end

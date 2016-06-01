@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZHTabBarButton : UIButton
-
+/** 模型数据 */
+@property (nonatomic, strong) UITabBarItem *item;
 @end

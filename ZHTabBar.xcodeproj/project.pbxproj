@@ -10,11 +10,25 @@
 		E0AE84BA1CFECD0900AA84FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84B91CFECD0900AA84FB /* main.m */; };
 		E0AE84BD1CFECD0900AA84FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84BC1CFECD0900AA84FB /* AppDelegate.m */; };
 		E0AE84C01CFECD0900AA84FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84BF1CFECD0900AA84FB /* ViewController.m */; };
-		E0AE84C31CFECD0900AA84FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AE84C11CFECD0900AA84FB /* Main.storyboard */; };
 		E0AE84C51CFECD0900AA84FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AE84C41CFECD0900AA84FB /* Assets.xcassets */; };
 		E0AE84C81CFECD0900AA84FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AE84C61CFECD0900AA84FB /* LaunchScreen.storyboard */; };
 		E0AE84D31CFECD0900AA84FB /* ZHTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84D21CFECD0900AA84FB /* ZHTabBarTests.m */; };
 		E0AE84DE1CFECD0900AA84FB /* ZHTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84DD1CFECD0900AA84FB /* ZHTabBarUITests.m */; };
+		E0AE84F31CFECFBC00AA84FB /* ZHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84F21CFECFBC00AA84FB /* ZHTabBarViewController.m */; };
+		E0AE84F61CFED05C00AA84FB /* ZHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84F51CFED05C00AA84FB /* ZHTabBar.m */; };
+		E0AE84F91CFED24E00AA84FB /* ZHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84F81CFED24E00AA84FB /* ZHFirstViewController.m */; };
+		E0AE84FC1CFED25B00AA84FB /* ZHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84FB1CFED25B00AA84FB /* ZHSecondViewController.m */; };
+		E0AE84FF1CFED26700AA84FB /* ZHThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE84FE1CFED26700AA84FB /* ZHThirdViewController.m */; };
+		E0AE85021CFED27200AA84FB /* ZHFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85011CFED27200AA84FB /* ZHFourthViewController.m */; };
+		E0AE85051CFED29100AA84FB /* ZHMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85041CFED29100AA84FB /* ZHMiddleViewController.m */; };
+		E0AE85091CFED7C800AA84FB /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85081CFED7C800AA84FB /* ZHNavigationViewController.m */; };
+		E0AE850C1CFEDC5C00AA84FB /* ZHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE850B1CFEDC5C00AA84FB /* ZHTabBarButton.m */; };
+		E0AE850F1CFEDC7600AA84FB /* ZHTabBarBigButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE850E1CFEDC7600AA84FB /* ZHTabBarBigButton.m */; };
+		E0AE85121CFEDCE800AA84FB /* ZHBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85111CFEDCE800AA84FB /* ZHBadgeView.m */; };
+		E0AE85151CFEDD2C00AA84FB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85141CFEDD2C00AA84FB /* UIView+Extension.m */; };
+		E0AE85191CFEDE2000AA84FB /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE85181CFEDE2000AA84FB /* UIImage+Extension.m */; };
+		E0AE851C1CFEE18100AA84FB /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE851B1CFEE18100AA84FB /* UIBarButtonItem+Extension.m */; };
+		E0AE851F1CFEE1D600AA84FB /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE851E1CFEE1D600AA84FB /* UIFont+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +55,6 @@
 		E0AE84BC1CFECD0900AA84FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0AE84BE1CFECD0900AA84FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0AE84BF1CFECD0900AA84FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0AE84C21CFECD0900AA84FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0AE84C41CFECD0900AA84FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0AE84C71CFECD0900AA84FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0AE84C91CFECD0900AA84FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,38 @@
 		E0AE84D91CFECD0900AA84FB /* ZHTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AE84DD1CFECD0900AA84FB /* ZHTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarUITests.m; sourceTree = "<group>"; };
 		E0AE84DF1CFECD0900AA84FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AE84F11CFECFBC00AA84FB /* ZHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBarViewController.h; sourceTree = "<group>"; };
+		E0AE84F21CFECFBC00AA84FB /* ZHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarViewController.m; sourceTree = "<group>"; };
+		E0AE84F41CFED05C00AA84FB /* ZHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBar.h; sourceTree = "<group>"; };
+		E0AE84F51CFED05C00AA84FB /* ZHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBar.m; sourceTree = "<group>"; };
+		E0AE84F71CFED24E00AA84FB /* ZHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFirstViewController.h; sourceTree = "<group>"; };
+		E0AE84F81CFED24E00AA84FB /* ZHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFirstViewController.m; sourceTree = "<group>"; };
+		E0AE84FA1CFED25B00AA84FB /* ZHSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSecondViewController.h; sourceTree = "<group>"; };
+		E0AE84FB1CFED25B00AA84FB /* ZHSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSecondViewController.m; sourceTree = "<group>"; };
+		E0AE84FD1CFED26700AA84FB /* ZHThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHThirdViewController.h; sourceTree = "<group>"; };
+		E0AE84FE1CFED26700AA84FB /* ZHThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHThirdViewController.m; sourceTree = "<group>"; };
+		E0AE85001CFED27200AA84FB /* ZHFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFourthViewController.h; sourceTree = "<group>"; };
+		E0AE85011CFED27200AA84FB /* ZHFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFourthViewController.m; sourceTree = "<group>"; };
+		E0AE85031CFED29100AA84FB /* ZHMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHMiddleViewController.h; sourceTree = "<group>"; };
+		E0AE85041CFED29100AA84FB /* ZHMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHMiddleViewController.m; sourceTree = "<group>"; };
+		E0AE85061CFED50B00AA84FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0AE85071CFED7C800AA84FB /* ZHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavigationViewController.h; sourceTree = "<group>"; };
+		E0AE85081CFED7C800AA84FB /* ZHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNavigationViewController.m; sourceTree = "<group>"; };
+		E0AE850A1CFEDC5C00AA84FB /* ZHTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBarButton.h; sourceTree = "<group>"; };
+		E0AE850B1CFEDC5C00AA84FB /* ZHTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarButton.m; sourceTree = "<group>"; };
+		E0AE850D1CFEDC7600AA84FB /* ZHTabBarBigButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBarBigButton.h; sourceTree = "<group>"; };
+		E0AE850E1CFEDC7600AA84FB /* ZHTabBarBigButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarBigButton.m; sourceTree = "<group>"; };
+		E0AE85101CFEDCE800AA84FB /* ZHBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBadgeView.h; sourceTree = "<group>"; };
+		E0AE85111CFEDCE800AA84FB /* ZHBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBadgeView.m; sourceTree = "<group>"; };
+		E0AE85131CFEDD2C00AA84FB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E0AE85141CFEDD2C00AA84FB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E0AE85161CFEDD5D00AA84FB /* ZHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHExtension.h; sourceTree = "<group>"; };
+		E0AE85171CFEDE2000AA84FB /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		E0AE85181CFEDE2000AA84FB /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		E0AE851A1CFEE18100AA84FB /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		E0AE851B1CFEE18100AA84FB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		E0AE851D1CFEE1D600AA84FB /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		E0AE851E1CFEE1D600AA84FB /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +146,16 @@
 		E0AE84B71CFECD0900AA84FB /* ZHTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				E0AE84F01CFECDBD00AA84FB /* Model */,
+				E0AE84EF1CFECDB900AA84FB /* View */,
+				E0AE84EB1CFECD8A00AA84FB /* Catagory */,
+				E0AE84EC1CFECD9100AA84FB /* TabBar */,
+				E0AE84ED1CFECD9900AA84FB /* Controller */,
+				E0AE84EE1CFECDA000AA84FB /* MainController */,
 				E0AE84BB1CFECD0900AA84FB /* AppDelegate.h */,
 				E0AE84BC1CFECD0900AA84FB /* AppDelegate.m */,
 				E0AE84BE1CFECD0900AA84FB /* ViewController.h */,
 				E0AE84BF1CFECD0900AA84FB /* ViewController.m */,
-				E0AE84C11CFECD0900AA84FB /* Main.storyboard */,
 				E0AE84C41CFECD0900AA84FB /* Assets.xcassets */,
 				E0AE84C61CFECD0900AA84FB /* LaunchScreen.storyboard */,
 				E0AE84C91CFECD0900AA84FB /* Info.plist */,
@@ -118,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				E0AE84B91CFECD0900AA84FB /* main.m */,
+				E0AE85061CFED50B00AA84FB /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +189,79 @@
 				E0AE84DF1CFECD0900AA84FB /* Info.plist */,
 			);
 			path = ZHTabBarUITests;
+			sourceTree = "<group>";
+		};
+		E0AE84EB1CFECD8A00AA84FB /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE85161CFEDD5D00AA84FB /* ZHExtension.h */,
+				E0AE85131CFEDD2C00AA84FB /* UIView+Extension.h */,
+				E0AE85141CFEDD2C00AA84FB /* UIView+Extension.m */,
+				E0AE85171CFEDE2000AA84FB /* UIImage+Extension.h */,
+				E0AE85181CFEDE2000AA84FB /* UIImage+Extension.m */,
+				E0AE851A1CFEE18100AA84FB /* UIBarButtonItem+Extension.h */,
+				E0AE851B1CFEE18100AA84FB /* UIBarButtonItem+Extension.m */,
+				E0AE851D1CFEE1D600AA84FB /* UIFont+Extension.h */,
+				E0AE851E1CFEE1D600AA84FB /* UIFont+Extension.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		E0AE84EC1CFECD9100AA84FB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE84F41CFED05C00AA84FB /* ZHTabBar.h */,
+				E0AE84F51CFED05C00AA84FB /* ZHTabBar.m */,
+				E0AE850A1CFEDC5C00AA84FB /* ZHTabBarButton.h */,
+				E0AE850B1CFEDC5C00AA84FB /* ZHTabBarButton.m */,
+				E0AE850D1CFEDC7600AA84FB /* ZHTabBarBigButton.h */,
+				E0AE850E1CFEDC7600AA84FB /* ZHTabBarBigButton.m */,
+				E0AE85101CFEDCE800AA84FB /* ZHBadgeView.h */,
+				E0AE85111CFEDCE800AA84FB /* ZHBadgeView.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E0AE84ED1CFECD9900AA84FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE84F71CFED24E00AA84FB /* ZHFirstViewController.h */,
+				E0AE84F81CFED24E00AA84FB /* ZHFirstViewController.m */,
+				E0AE84FA1CFED25B00AA84FB /* ZHSecondViewController.h */,
+				E0AE84FB1CFED25B00AA84FB /* ZHSecondViewController.m */,
+				E0AE84FD1CFED26700AA84FB /* ZHThirdViewController.h */,
+				E0AE84FE1CFED26700AA84FB /* ZHThirdViewController.m */,
+				E0AE85001CFED27200AA84FB /* ZHFourthViewController.h */,
+				E0AE85011CFED27200AA84FB /* ZHFourthViewController.m */,
+				E0AE85031CFED29100AA84FB /* ZHMiddleViewController.h */,
+				E0AE85041CFED29100AA84FB /* ZHMiddleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0AE84EE1CFECDA000AA84FB /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE84F11CFECFBC00AA84FB /* ZHTabBarViewController.h */,
+				E0AE84F21CFECFBC00AA84FB /* ZHTabBarViewController.m */,
+				E0AE85071CFED7C800AA84FB /* ZHNavigationViewController.h */,
+				E0AE85081CFED7C800AA84FB /* ZHNavigationViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		E0AE84EF1CFECDB900AA84FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0AE84F01CFECDBD00AA84FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +326,7 @@
 		E0AE84AD1CFECD0800AA84FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZH;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "周浩";
 				TargetAttributes = {
@@ -245,7 +370,6 @@
 			files = (
 				E0AE84C81CFECD0900AA84FB /* LaunchScreen.storyboard in Resources */,
 				E0AE84C51CFECD0900AA84FB /* Assets.xcassets in Resources */,
-				E0AE84C31CFECD0900AA84FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +394,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AE85151CFEDD2C00AA84FB /* UIView+Extension.m in Sources */,
+				E0AE84F31CFECFBC00AA84FB /* ZHTabBarViewController.m in Sources */,
+				E0AE850C1CFEDC5C00AA84FB /* ZHTabBarButton.m in Sources */,
+				E0AE85121CFEDCE800AA84FB /* ZHBadgeView.m in Sources */,
+				E0AE84F91CFED24E00AA84FB /* ZHFirstViewController.m in Sources */,
 				E0AE84C01CFECD0900AA84FB /* ViewController.m in Sources */,
+				E0AE84F61CFED05C00AA84FB /* ZHTabBar.m in Sources */,
+				E0AE85191CFEDE2000AA84FB /* UIImage+Extension.m in Sources */,
 				E0AE84BD1CFECD0900AA84FB /* AppDelegate.m in Sources */,
 				E0AE84BA1CFECD0900AA84FB /* main.m in Sources */,
+				E0AE850F1CFEDC7600AA84FB /* ZHTabBarBigButton.m in Sources */,
+				E0AE851C1CFEE18100AA84FB /* UIBarButtonItem+Extension.m in Sources */,
+				E0AE85021CFED27200AA84FB /* ZHFourthViewController.m in Sources */,
+				E0AE84FF1CFED26700AA84FB /* ZHThirdViewController.m in Sources */,
+				E0AE851F1CFEE1D600AA84FB /* UIFont+Extension.m in Sources */,
+				E0AE85091CFED7C800AA84FB /* ZHNavigationViewController.m in Sources */,
+				E0AE84FC1CFED25B00AA84FB /* ZHSecondViewController.m in Sources */,
+				E0AE85051CFED29100AA84FB /* ZHMiddleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E0AE84C11CFECD0900AA84FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0AE84C21CFECD0900AA84FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0AE84C61CFECD0900AA84FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,10 +546,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZHTabBar/PrefixHeader.pch;
 				INFOPLIST_FILE = ZHTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hao.zhou.ZHTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,10 +559,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZHTabBar/PrefixHeader.pch;
 				INFOPLIST_FILE = ZHTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hao.zhou.ZHTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

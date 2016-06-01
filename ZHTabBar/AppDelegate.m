@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZHTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 1.创建主窗口
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [[UIScreen mainScreen] bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 设置窗口的根控制器
+    self.window.rootViewController = [[ZHTabBarViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
